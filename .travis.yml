@@ -15,5 +15,5 @@ script:
 
 after_success:
   # 当代码测试通过后执行的命令
-  - docker build -t username/alpine .
-  - docker push username/alpine
+  - docker build -t ryanlaudocker/alpine .
+  - docker push ryanlaudocker/alpine
